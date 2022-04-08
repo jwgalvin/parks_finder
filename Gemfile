@@ -20,6 +20,7 @@ gem 'faraday'
 gem 'figaro'
 
 group :development, :test do
+gem 'rspec-rails'
   gem 'pry'
 end
 
@@ -28,6 +29,9 @@ group :test do
   gem 'capybara'
   gem 'launchy'
   gem 'simplecov'
+  gem 'shoulda-matchers'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :development do
